@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+button {
+  cursor: pointer;
+}
+header{
+  display: grid;
+  grid-auto-flow: column;
+  padding: 0 40px;
+  border-bottom: thin solid rgba(128, 128, 128, 0.17);
+  margin: 0 20px;
+}
+.header-title{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-size: 30px;
+}
+.home-page{
+  display: grid;
+  grid-auto-flow: column;
+}
+main{
+  padding-top: 50px;
+}
+.notes-search{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.note-search-form{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.note-search-form input{
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 20px;
+  border: thin solid rgba(128, 128, 128, 0.23);
+}
+.note-search-form button{
+  height: 30px;
+  width: 50px;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.navbar-items{
+  display: grid;
+  justify-content: start;
+  align-content:flex-start;
+  grid-auto-flow: row;
+  gap: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
+  list-style: none;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar-items li{
+  border-bottom: thin solid rgba(128, 128, 128, 0.17);
+  text-decoration: none;
+}
+.navbar-items .active{
+  color: #dec2bb;
+  font-weight: 700;
+}
+.allNotes{
+  display: grid;
+  grid-auto-flow: row;
+  gap: 10px;
+  padding-top: 20px;
+}
+.text{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.notes button{
+  float: right;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  padding-right: 20px;
+}
+.navbar-addpost{
+  display: grid;
+  grid-auto-flow: row;
+  gap: 100px;
+}
+.post{
+display: grid;
+grid-auto-flow: row;
+justify-self: flex-start;
+margin-left: 50px;
+margin-top: 40px;
+}
+.post-h1{
+  font-weight: 300;
+  padding-bottom:50px ;
+}
+.post-notes{
+  display: grid;
+  grid-auto-flow: row;
+  gap: 10px;
+  background-color: rgba(222, 194, 187, 0.374);
+  padding: 20px;
+  border-radius: 20px;
+}
+.post-notes input{
+  height: 30px;
+  border-radius: 10px;
+  border: thin solid gray;
+  padding-left: 10px;
+}
+.post-notes textarea{
+  border-radius: 10px;
+  border: thin solid gray;
+  padding:0 10px;
+}
+.post-notes select{
+  height: 30px;
+  border-radius: 10px;
+  border: thin solid gray;
+  padding-left: 10px;
+}
+.post-notes button{
+  width: 100px;
+  justify-self: end;
+  height: 25px;
+  border-radius: 10px;
+  border: thin solid gray;
+}
